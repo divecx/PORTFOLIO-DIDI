@@ -1,0 +1,1 @@
+Project Tugas Besar Mata Kuliah Pemrograman Lanjutan Semester 5. Program ini merupakan program pembelian tiket khususnya tiket kereta api, nantinya pengguna akan dapat memesan tiket yang tersedia, lalu outputnya akan terdapat sebuah invoice / surat tanda bahwa sudah memesan tiket dalam bentuk file external.

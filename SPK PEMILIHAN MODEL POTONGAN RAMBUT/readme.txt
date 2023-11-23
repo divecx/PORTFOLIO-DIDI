@@ -1,0 +1,3 @@
+Project Akhir Mata Kuliah Pemrograman Berbasis Objek Semester 4. Program ini merupakan sistem pendukung keputusan (SPK) pemilihan model potongan rambut pria menggunakan metode TOPSIS. Output nya akan merekomendasikan dua model potongan rambut yang paling sesuai dengan kriteria yang dimiliki pelanggan.
+
+link artikel: https://docs.google.com/document/d/18RfQYLHK6XVXvo0RQ65S3AB5DOdEimlM/edit?usp=sharing&ouid=114645771518280576726&rtpof=true&sd=true 
