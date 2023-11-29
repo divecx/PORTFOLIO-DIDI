@@ -5,3 +5,5 @@ Tongkat dilengkapi dengan kamera --> mendeteksi object yang telah ditraining seb
 
 Object yang ditraining:
 Berupa obstacle / rintangan untuk seorang tunanetra yang berada di jalan raya, diantaranya: marka jalan, tong sampah, tiang, fire hydrant, warning column, spherical roadblock, temporary sign, warning sign, person, car, bike, dog, dll.
+
+Demonstrasi: https://drive.google.com/file/d/1enB9Ii6zRCsKCPoiisgZS0m6lQ1Rvb1w/view?usp=sharing 
