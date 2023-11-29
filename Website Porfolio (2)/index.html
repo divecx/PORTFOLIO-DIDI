@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PortoDidi</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- End CSS -->
+
+    <!-- Animate Style -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+
+  <body>
+    <!-- navigasi -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top animate__animated animate__fadeInDown"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">PortoDidi</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-right" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#layanan">Layanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portofolio">Portofolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tentang">Tentang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#staff">Tim</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kontak">Kontak Kami</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navigasi -->
+    <!-- banner -->
+    <div class="container-fluid banner">
+      <div class="container text-center">
+        <h4
+          class="display-6 animate__animated animate__fadeInUp animate__delay-1s"
+        >
+          Selamat Datang di Website Saya
+        </h4>
+        <h3
+          class="display-1 animate__animated animate__fadeInUp animate__delay-1s"
+        >
+          Halo! Salam kenal!
+        </h3>
+        <a href="#layanan">
+          <button
+            type="button"
+            class="btn btn-dark btn-lg animate__animated animate__fadeInUp animate__delay-1s"
+          >
+            Cek Layanan
+          </button>
+        </a>
+      </div>
+    </div>
+    <!-- End banner -->
+    <!-- layanan -->
+    <div class="container-fluid layanan pt-5 pb-5">
+      <div class="container text-center">
+        <h2 class="display-3" id="layanan">Layanan</h2>
+        <p>Berikut adalah beberapa skill dan keterampilan yang saya miliki!</p>
+        <div class="row pt-4">
+          <div class="col-md-4">
+            <span class="lingkaran"><i class="fas fa-code fa-5x"></i></span>
+            <h3 class="mt-3">Programming</h3>
+            <p>C++, Java, Android, HTML</p>
+          </div>
+
+          <div class="col-md-4">
+            <span class="lingkaran"><i class="fas fa-palette fa-5x"></i></span>
+            <h3 class="mt-3">Design</h3>
+            <p>Photoshop, Ilustrator, Figma, Canva, dll.</p>
+          </div>
+
+          <div class="col-md-4">
+            <span class="lingkaran"><i class="fas fa-keyboard fa-5x"></i></span>
+            <h3 class="mt-3">Microsoft</h3>
+            <p>Word, Excel, Power Point</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End layanan -->
+    <!-- portofolio -->
+    <div class="container-fluid pt-5 pb-5 bg-light">
+      <div class="container text-center">
+        <h2
+          class="display-3"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          id="portofolio"
+        >
+          Portofolio
+        </h2>
+        <p data-aos="fade-right" data-aos-duration="1000">
+          Berikut adalah beberapa preview portofolio yang sudah dikerjakan, baik
+          perorangan ataupun team.
+        </p>
+        <div class="row pt-4 gx-4 gy-4">
+          <div
+            class="col-md-4"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
+            <div class="card crop-img">
+              <img
+                src="images/1.png"
+                class="card-img-top"
+                width="200"
+                height="200"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Tongkat Tunanetra Berbasis AI</h5>
+                <p class="card-text">
+                  Tongkat tunanetra dilengkapi dengan AI yang dapat mendeteksi
+                  dan menyebutkan dengan lisan object yang terdeteksi. Tongkat
+                  ini juga dilengkapi dengan RFID, module GSM, dan sensor
+                  ultrasonik.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-md-4"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="600"
+          >
+            <div class="card crop-img">
+              <img
+                src="images/2.png"
+                class="card-img-top"
+                width="200"
+                height="200"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Solar Based Scarecrow with Sound Sensing
+                </h5>
+                <p class="card-text">
+                  Pengusir burung dengan mendeteksi keberadaannya menggunakan
+                  sensor ultrasonik, jika terdeteksi akan menggerakan lengan
+                  robot dan mengeluarkan suara.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-4"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="800"
+          >
+            <div class="card crop-img">
+              <img
+                src="images/3.png"
+                class="card-img-top"
+                width="200"
+                height="200"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Countdown Timer</h5>
+                <p class="card-text">
+                  Timer menggunakan Arduino UNO, ketika countdown perhitungan
+                  selesai, buzzzer dan lampu akan menyala yang menandakan waktu
+                  telah habis. Semua tampilan program timer juga ditampilkan
+                  pada layar LCD.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-4"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <div class="card crop-img">
+              <img
+                src="images/4.png"
+                class="card-img-top"
+                width="200"
+                height="200"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Leveraging TOPSIS for Decision Making in Haircut Model
+                  Selection
+                </h5>
+                <p class="card-text">
+                  Program sistem pendukung keputusan pemilihan pemotongan rambut
+                  menggunakan metode TOPSIS.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-4"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
+            <div class="card crop-img">
+              <img
+                src="images/5.png"
+                class="card-img-top"
+                width="200"
+                height="200"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Program Converter Bilangan</h5>
+                <p class="card-text">
+                  Program untuk mengkonversi atau mengubah sebuah bilangan ke
+                  bilangan yang lain. Terdapat banyak menu seperti desimal,
+                  hexadesimal, octadesimal, biner, dll.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-4"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="600"
+          >
+            <div class="card crop-img">
+              <img
+                src="images/6.png"
+                class="card-img-top"
+                width="200"
+                height="200"
+              />
+              <div class="card-body">
+                <h5 class="card-title">JONTOR.</h5>
+                <p class="card-text">
+                  Sebuah penyedia jasa joki tugas, tetapi berbeda dengan joki
+                  tugas lain, kami dilengkapi dengan tutorial pengerjaan tugas
+                  tersebut.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End portofolio -->
+    <!-- tentang -->
+    <div class="container-fluid pt-5 pb-5">
+      <div class="container">
+        <h2
+          class="display-3 text-center"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          id="tentang"
+        >
+          Tentang
+        </h2>
+        <p class="text-center" data-aos="fade-right" data-aos-duration="1000">
+          Mari sedikit berkenalan dengan saya!
+        </p>
+        <div class="clearfix pt-5">
+          <img
+            src="images/9178152.jpg"
+            class="col-md-6 float-md-end mb-3 crop-img"
+            width="500"
+            height="500"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          />
+          <br />
+          <br />
+          <br />
+          <p
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="500"
+          >
+            Saya Didi, dan saya senang bisa berbagi sedikit tentang diri saya.
+            Saya adalah seorang individu yang bersemangat dalam menjalani
+            kehidupan serta rasa ingin tahu yang tinggi. Saya selalu tertarik
+            pada berbagai aspek pengetahuan, mulai dari ilmu pengetahuan dan
+            teknologi hingga seni dan budaya. Saat ini, saya sedang menempuh
+            perkuliah program studi Teknik Komputer Universitas Pendidikan
+            Indonesia.
+          </p>
+          <p
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="600"
+          >
+            Di luar studi, saya memiliki sejumlah hobi yang saya nikmati. Saya
+            senang bermain musik seperti gitar, drum, bass, dll. Saya juga
+            senang bermain game. Saya juga cukup mahir dalam mendesain apapun.
+            Saya selalu terbuka untuk belajar dan mencari hal yang baru dan
+            berbagi pengalaman dengan orang lain, jadi jangan ragu untuk
+            menghubungi saya jika Anda ingin berbicara, berteman, bahkan
+            berkolaborasi dalam proyek apa pun.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- end tentang -->
+    <!-- tim -->
+    <div class="container-fluid pt-5 pb-5 bg-light">
+      <div class="container text-center">
+        <h2 class="display-3" id="staff">Tim Mekatronika</h2>
+        <p>
+          Berikut merupakan kelompok Tugas Besar Mekatronika dan Probabilitas
+          Statistika.
+        </p>
+        <div class="row pt-4 gx-4 gy-4">
+          <div class="col-md-4 text-center tim">
+            <img
+              src="images/tim1.jpeg"
+              class="rounded-circle mb-3"
+              data-aos="flip-left"
+              data-aos-duration="1000"
+              data-aos-delay="300"
+            />
+            <h4>Antonius Didi Kurniadi</h4>
+            <p>2110033</p>
+            <p>
+              <a href="https://twitter.com/divecx_" class="social"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="https://facebook.com/antonius.didi.1/" class="social"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="https://www.instagram.com/divecx" class="social"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </p>
+          </div>
+          <div class="col-md-4 text-center tim">
+            <img
+              src="images/tim2.jpeg"
+              class="rounded-circle mb-3"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            />
+            <h4>Rafli Maulid F.</h4>
+            <p>2101233</p>
+            <p>
+              <a href="https://twitter.com/raflim" class="social"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="https://facebook.com/raflimaulidf1" class="social"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="https://instagram.com/rfplai" class="social"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </p>
+          </div>
+          <div class="col-md-4 text-center tim">
+            <img
+              src="images/tim3.jpeg"
+              class="rounded-circle mb-3"
+              data-aos="flip-right"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+            />
+            <h4>Wesly Hugo Tamba</h4>
+            <p>2110039</p>
+            <p>
+              <a href="https://twitter.com/weslyht" class="social"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="https://facebook.com/weslyhugo" class="social"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="https://instagram.com/weslyht" class="social"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end tim -->
+    <!-- Client -->
+    <div class="container-fluid client pt-5 pb-5">
+      <div class="container text-center">
+        <div class="row pt-4 gx-4 gy-4">
+          <div class="col">
+            <img src="images/client/1.png" />
+          </div>
+          <div class="col">
+            <img src="images/client/2.png" />
+          </div>
+          <div class="col">
+            <img src="images/client/3.png" />
+          </div>
+          <div class="col">
+            <img
+              src="https://i.pinimg.com/originals/20/1d/17/201d17590b3a7bc8939ca37e577bbbd8.png"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="data:image/png;base64,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"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end client -->
+    <!-- kontak -->
+    <div class="container-fluid pt-5 pb-5 kontak">
+      <div class="container">
+        <h2 class="display-3 text-center" id="kontak">Kontak Kami</h2>
+        <p class="text-center">
+          Dengan senang hati kami menampung kritik, saran, masukkan, dan
+          obrolan.
+        </p>
+        <div class="row pb-3">
+          <div class="col-md-6">
+            <input
+              class="form-control form-control-lg mb-3"
+              type="text"
+              placeholder="Nama"
+            />
+            <input
+              class="form-control form-control-lg mb-3"
+              type="text"
+              placeholder="Email"
+            />
+            <input
+              class="form-control form-control-lg"
+              type="text"
+              placeholder="No. Phone"
+            />
+          </div>
+          <div class="col-md-6">
+            <textarea class="form-control form-control-lg" rows="5"></textarea>
+          </div>
+        </div>
+        <div class="col-md-3 mx-auto text-center">
+          <button type="button" class="btn btn-danger btn-lg">
+            Kirim Pesan
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- end client -->
+    <!-- footer -->
+    <div class="container text-center pt-5 pb-5">&copy; DIVECX 2023</div>
+    <!-- end footer -->
+    <!-- javascript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- end javascript -->
+  </body>
+</html>
