@@ -1,0 +1,31 @@
+package com.restapi_sei.projectsei.service;
+
+import com.restapi_sei.projectsei.model.Proyek;
+import com.restapi_sei.projectsei.repository.ProyekRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
+@Service
+public class ProyekService {
+
+    @Autowired
+    private ProyekRepository proyekRepository;
+
+    public Proyek addProyek(Proyek proyek) {
+        return proyekRepository.save(proyek);
+    }
+
+    public List<Proyek> getAllProyek() {
+        return proyekRepository.findAll();
+    }
+
+    public Proyek updateProyek(Proyek proyek) {
+        return proyekRepository.save(proyek);
+    }
+
+    public void deleteProyek(Integer id) {
+        proyekRepository.deleteById(id);
+    }
+}
